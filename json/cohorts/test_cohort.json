@@ -1,0 +1,50 @@
+{
+  "Tony Stark": {
+    "seating history": {
+      "adjacent seats": ["Tony Stark", "Natasha Romanoff", "Yelena Romanoff"],
+      "same table": ["Sam Wilson", "Vision", "Wanda Maximoff","Bucky Barnes"]
+    }
+  },
+  "Natasha Romanoff": {
+    "seating history": {
+      "adjacent seats": ["Natasha Romanoff", "Tony Stark", "James Rhodes"],
+      "same table": ["Sam Wilson", "Vision", "Wanda Maximoff","Bucky Barnes"]
+    }
+  },
+  "Sam Wilson": {
+    "seating history": {
+      "adjacent seats": ["Sam Wilson", "Vision", "Bucky Barnes"],
+      "same table": ["Tony Stark", "Natasha Romanoff", "James Rhodes", "Yelena Romanoff"]
+    }
+  },
+  "Wanda Maximoff": {
+    "seating history": {
+      "adjacent seats": ["Wanda Maximoff", "Vision", "Bucky Barnes"],
+      "same table": ["Tony Stark", "Natasha Romanoff", "James Rhodes", "Yelena Romanoff"]
+    }
+  },
+  "James Rhodes": {
+    "seating history": {
+      "adjacent seats": ["James Rhodes", "Natasha Romanoff", "Yelena Romanoff"],
+      "same table": ["Sam Wilson", "Vision", "Wanda Maximoff","Bucky Barnes"]
+    }
+  },
+  "Yelena Romanoff": {
+    "seating history": {
+      "adjacent seats": ["Sam Wilson", "Vision", "Wanda Maximoff","Bucky Barnes", "Natasha Romanoff"],
+      "same table": ["Sam Wilson", "Vision", "Wanda Maximoff","Bucky Barnes"]
+    }
+  },
+  "Vision": {
+    "seating history": {
+      "adjacent seats": ["Tony Stark", "Natasha Romanoff", "James Rhodes", "Yelena Romanoff", "Bucky Barnes"],
+      "same table": ["Tony Stark", "Natasha Romanoff", "James Rhodes", "Yelena Romanoff"]
+    }
+  },
+  "Bucky Barnes": {
+    "seating history": {
+      "adjacent seats": ["Bucky Barnes", "Sam Wilson", "Wanda Maximoff"],
+      "same table": ["Tony Stark", "Natasha Romanoff", "James Rhodes", "Yelena Romanoff"]
+    }
+  }
+}

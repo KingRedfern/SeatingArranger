@@ -2,8 +2,16 @@
 cohort.py - Class for representing a cohort of students
 """
 
-class Cohort:
+from cohort_base import BaseCohort
 
-    def __init__(self):
+
+# ---------------------------------------------------------------------------------------- #
+# Class definition
+# ---------------------------------------------------------------------------------------- #
+
+class Cohort(BaseCohort):
+
+    def __init__(self, name: str, **kwargs):
         """ """
+        super().__init__(name, **kwargs)
         return
