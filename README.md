@@ -1,4 +1,4 @@
-# SeatOrganizer
+# SeatArranger
 
 This program's purpose is to let people input a list of names, and have a list of seating arrangements generated where two people will not sit next to each other twice until they have sat next to every other person. 
 
